@@ -4,5 +4,9 @@
 
 2- Feature: pixels I picked for labels (Sky: 30 pixels, Window: 30 pixels, Building: 100 pixels, Air conditioiner: 30 pixels, Total: 190 pixels)
 
-3 -Object: Every one single pixels that time series is associated with it
+3 -Object: 
+
+(For picked pixels) Pixels that are picked for the prediction (For 0.2 test set, 190 pixels * 0.8 = 152 pixels) 
+
+(For all pixels) Every one single pixels that time series is associated with it
 
