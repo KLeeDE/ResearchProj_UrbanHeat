@@ -1,0 +1,18 @@
+
+1D Convolutional Neural Network 
+
+
+1- Target: Four labels (Sky, Window, Building, Air conditioner)
+- Target is the source of the pixels
+- Target is set for the automatic classification
+
+2- Feature:  the single pixels I picked (Sky: 30 pixels, Window: 30 pixels, Building: 100 pixels, Air conditioiner: 30 pixels, Total: 190 pixels) 
+- The featuers are information around the object to classify that one pixel
+- In this research, the features are the brightness
+
+3 -Object:
+(For picked pixels) Pixels that are picked for the prediction 
+(For all pixels) Object is all the pixels 
+- The object is just one single pixel which is centered
+
+
