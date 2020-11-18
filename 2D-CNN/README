@@ -1,0 +1,22 @@
+
+2D Convolutional Neural Network 
+
+Apply model to all pixels
+Generate full list of every pixels 
+Subset images for every pixels - every single pixels in the images need to take the pixel overlapping patches (11 by 11)
+While 2D is for the time sieries of given pixel, 3D is for the times series of given pixels for all surrounding pixels
+
+1- Target: Four labels (Sky, Window, Building, Air conditioner)
+- Target is the source of the pixels
+- Target is set for the automatic classification
+
+2- Feature:  the time series of the pixels I picked (Sky: 30 pixels, Window: 30 pixels, Building: 100 pixels, Air conditioiner: 30 pixels, Total: 190 pixels 
+             for 11 by 11 box and 100 images, feat.shape is 152, 11,11,100 
+- The featuers are information around the object to classify that one pixel
+- In this research, the features are the brightness at each time series.
+
+3 -Object:
+(For picked pixels) Pixels that are picked for the prediction (For 0.2 test set, 190 pixels * 0.8 = 152 pixels) 
+(For all pixels) Object is all the pixels - every one single pixels that time series is associated with it.
+- The object is just one single pixel which is centered
+- In this research, the object is automatic detection of brightness
