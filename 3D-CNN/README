@@ -5,7 +5,7 @@ Generate full list of every pixels
 Subset images for every pixels - every single pixels in the images need to take the pixel overlapping patches (11 by 11)
 While 2D is for the time sieries of given pixel, 3D is for the times series of given pixels for all surrounding pixels
 
-1- Target: Four labels (Sky, Window, Building, Ari conditioner)
+1- Target: Four labels (Sky, Window, Building, Air conditioner)
 
 2- Feature: pixels I picked for labels (Sky: 30 pixels, Window: 30 pixels, Building: 100 pixels, Air conditioiner: 30 pixels, Total: 190 pixels)
 In 3D CNN, features are not just the time series of that pixel, but it is time series of its neighbors too (For 11 by 11 cube and 100 images, feat.shape is 152, 11,11,100). 
