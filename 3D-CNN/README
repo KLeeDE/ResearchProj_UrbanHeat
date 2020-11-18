@@ -1,0 +1,8 @@
+3D Convolutional Neural Network 
+
+1- Target: Four labels (Sky, Window, Building, Ari conditioner)
+
+2- Feature: pixels I picked for labels (Sky: 30 pixels, Window: 30 pixels, Building: 100 pixels, Air conditioiner: 30 pixels, Total: 190 pixels)
+
+3 -Object: Every one single pixels that time series is associated with it
+
